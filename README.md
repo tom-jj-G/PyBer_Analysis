@@ -44,6 +44,7 @@ Both results are analyzed in the **Summary** part below.
 ### Summary
 
 #### Summary DataFrame
+
 Regarding the DataFrame Summary, we could notice than rural cities have the highest average fare by ride, followed by suburban cities and urban cities. However, values are quite in the same range (about $30).
 Regarding the average fare by driver, the discrepancies are more explicit: for rural cities, the values are more than three times the ones for urban cities and almost 50% higher than suburban cities.
 
@@ -55,6 +56,8 @@ For the targeted time frame, we can notice than the total fare repartition stays
 - Urban: between $1,750 and $2,500
 - Suburban: between $750 and $1,500
 - Rural: between $250 and $500
+
+#### Global Summary
 
 For urban and suburban cities, the results show a slightly increase of the total fare with seasonal variations during the period: for urban cities, total fare went from $1,750 to 2,250$ and for suburban cities, it went from $750 to $1,250.
 For rural cities, the total fare did not increase during the period despite some seasonal variations.
