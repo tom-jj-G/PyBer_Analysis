@@ -13,6 +13,7 @@ The purpose of the Analysis Report is to:
 In order to perform the additional analysis, the following files have been used:
 - city_data.csv
 - ride_data.csv
+
 *Files are available under "Resources/" folder*
 
 In order to complete assignment 1. both data included in .csv files were merged using pandas library.
@@ -85,19 +86,22 @@ The summary DataFrame built could be useful to track and follow this goal and th
 
 ### Additional Analysis 1
 
-* Description of Approach
+#### Description of Approach
 
 In order to better find another trends, we should expend our data history to include the whole 2019 year and the two prior years (2018 and 2017). 
 
-* Technical Steps
+#### Technical Steps
+
 We can add the additional years in our summary DataFrame to visualize the evolution of the ratios and maybe identity some trends.
 Multiple-lines chart could also benefit from this wider time frame and trends might appear.
 
 ### Additional Analysis 2
 
-* Description of Approach
+#### Description of Approach
+
 We focused on city types during the analysis but we could dive a little bit further into each city type: some urban cities are maybe lacking drivers too or some suburban cities maybe have, on the opposite, already too many drivers.
 In addition, we know about each ride made but it would be really helpful to know how many ride requests are made and if all of them are fulfilled for each city. It will help the company to focus of these specific cities first to capture this potential lost revenue.
 
-* Technical Steps
+#### Technical Steps
+
 We could compute percentages of ride requests achieved for each city first. Then, we could cut each city type into several and adequate bins to help prioritize the actions to be taken.  
