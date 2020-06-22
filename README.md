@@ -36,10 +36,10 @@ Below are the results for the first two assignments.
 Both results are analyzed in the **Summary** part below.
 
 #### Summary DataFrame
-![Summary_DataFrame](Analysis\Summary_DataFrame.png)
+![Summary_DataFrame](Analysis/Summary_DataFrame.png)
 
 #### Multiple-Line Plot for the Sum of the Fares for Each City Type
-![Multiple-Line_Plot](Analysis\Fig_Challenge.png)
+![Multiple-Line_Plot](Analysis/Fig_Challenge.png)
 
 ### Summary
 
@@ -70,10 +70,10 @@ There were two relevant difficulties encountered during the assignments:
 ### Technical Analyses Used
 After checking online, challenges were overcame by:
 - getting the total drivers for each kind of cities => using the groupby() with multiples parameters (needed to remember that this method allow multiple parameters)
-![Difficulty_1](Analysis\Diff_1.png)
+![Difficulty_1](Analysis/Diff_1.png)
 
 - changing the format of the index for the DataFrame used to plot the multiple-lines charts => using the pandas.to_datetime() method
-![Difficulty_2](Analysis\Diff_2.png)
+![Difficulty_2](Analysis/Diff_2.png)
 
 
 ## Recommendations and Next Steps
